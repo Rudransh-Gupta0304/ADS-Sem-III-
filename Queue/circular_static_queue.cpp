@@ -33,7 +33,6 @@ public:
         cout << value << " inserted into queue." << endl;
     }
 
-    // Dequeue
     void dequeue(){
         if (front == -1) {
             cout << "Queue is Empty!" << endl;
