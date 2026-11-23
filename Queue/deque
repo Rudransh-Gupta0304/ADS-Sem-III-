@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <deque>
 using namespace std;
@@ -16,7 +17,7 @@ int main() {
     dq.pop_front();
     dq.pop_back();
 
-    cout << "Remaining students: ";
+    cout <<"Remaining students: ";
 
     for (int x : dq) {
         cout << x << " ";
